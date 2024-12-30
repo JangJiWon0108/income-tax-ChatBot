@@ -1,6 +1,9 @@
 # main.py
 # 메인 파일
 
+# 깃허브 테스트
+print("깃허브 테스트 입니다")
+
 from fastapi import FastAPI
 import uvicorn
 
@@ -19,3 +22,4 @@ app.include_router(chat_router)
 if __name__ == "__main__":
     
     uvicorn.run("main:app", port=8080, reload=True)
+
